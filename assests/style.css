@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+.all-content-container {
+    width: 65%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 body {
     background-color: #960d1d;
     background-size: cover;
@@ -21,22 +28,21 @@ body {
 }
 
 #flag {
-    width: 960px;
+    width: 100%;
     height: 450px;
     opacity: .8;
-    position: absolute;
 }
 
 .flag-container {
         background: white;
-        width: 960px;
+        width: 100%;
         height: 450px;
         margin-right: auto;
         margin-left: auto;
 }
 
 .header {
-    width: 960px;
+    width: 100%;
     height: 60px;
     background: white;
     margin-right: auto;
@@ -48,7 +54,7 @@ body {
 .grid-container-header {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    width: 960px;
+    width: 100%;
     height: 90px;
     margin-right: auto;
     margin-left: auto;
@@ -69,7 +75,6 @@ a.hlink:hover {
     font-size: 25px;
 }
 
-
 #linda-header {
     color: white;
 }
@@ -80,29 +85,34 @@ a.hlink:hover {
 }
 
 #above-header {
-    width: 960px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
+}
+
+#above-left {
+    width: 40%;
 }
 
 #above-right {
     font-family: 'Dancing Script', cursive;
     color: white;
     padding-top: 13px;
-    margin-left: 438px;
+    width: 60%;
+    text-align: right;
 }
 
 #linda-pic {
     position: absolute;
     z-index: 1;
-    height: 450px;
-    left: 300px;
+    width: 27%;
+    left: 20%;
 }
 
 #blue-background {
     background-color: #203064;
-    width: 960px;
+    width: 100%;
     height: 75px;
     margin-left: auto;
     margin-right: auto;
@@ -112,7 +122,7 @@ a.hlink:hover {
 
 #red-background {
     background-color: white;
-    width: 960px;
+    width: 100%;
     height: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -173,7 +183,7 @@ a.link3:hover {
 }
 
 .family-container {
-    width: 960px;
+    width: 100%;
     height: 720px;
     margin-right: auto;
     margin-left: auto;
@@ -214,10 +224,11 @@ a.link3:hover {
     font-size: 18px;
     line-height: 1.3;
     margin: 20px;
+    padding-bottom: 10px;
 }
 
 .contact-container {
-    width: 960px;
+    width: 100%;
     height: 485px;
     margin-right: auto;
     margin-left: auto;
@@ -225,7 +236,7 @@ a.link3:hover {
 }
 
 #contact {
-    width: 880px;
+    width: 90%;
     color: white;
     font-family: 'Playfair Display', serif;
     font-size: 25px;
@@ -241,14 +252,14 @@ label {
     color: white;
     font-size: 20px;
     margin-left: 40px;
-    width: 880px;
+    width: 90%;
     display: inline-block;
     margin-top: 6px;
     margin-bottom: 6px;
 }
 
 input {
-    width: 880px;
+    width: 90%;
     height: 30px;
     color: black;
     margin-left: 40px;
@@ -272,7 +283,7 @@ button {
 textarea {
     font-family:'Playfair Display', serif;
     margin-left: 40px;
-    width: 880px;
+    width: 90%;
     font-size: 15px;
 }
 
