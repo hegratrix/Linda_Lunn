@@ -210,7 +210,7 @@ a.link3:hover {
 
 .family-container {
     width: 100%;
-    height: 720px;
+    height: 610px;
     margin-right: auto;
     margin-left: auto;
     background-color: #203064;
@@ -259,7 +259,7 @@ a.link3:hover {
 
 .contact-container {
     width: 100%;
-    height: 485px;
+    height: 545px;
     margin-right: auto;
     margin-left: auto;
     background-color: #203064;
@@ -275,6 +275,7 @@ a.link3:hover {
     padding-top: 35px;
     border-bottom: 4px solid #960d1d;
     margin-right: 35px;
+    margin-top: 0;
 }
 
 label {
@@ -290,8 +291,9 @@ label {
 
 input {
     width: 90%;
-    height: 30px;
+    height: 35px;
     color: black;
+    font-size: 20px;
     margin-left: 40px;
     border-style: solid;
     border-color: #96042d;
@@ -314,7 +316,7 @@ textarea {
     font-family:'Playfair Display', serif;
     margin-left: 40px;
     width: 90%;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #pta-pic, #board-pic, #example-pic {
@@ -345,10 +347,6 @@ textarea {
     width: 30%;
 }
 
-#eyebrows {
-    float: left;
-    width: 70px;
-}
 
 
 
