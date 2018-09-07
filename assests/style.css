@@ -248,14 +248,6 @@ a.link3:hover {
     border-top: none;
 }
 
-/* #cs-title {
-    color: #203064;
-    font-family: 'Dancing Script', cursive;
-    text-align: center;
-    font-size: 36px;
-    padding-top: 10px;
-} */
-
 #statement {
     color: white;
     font-family: 'Playfair Display', serif;
@@ -367,3 +359,12 @@ textarea {
     margin-left: auto;
     width: 700px;
 }  */
+
+
+/* #cs-title {
+    color: #203064;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 10px;
+} */
