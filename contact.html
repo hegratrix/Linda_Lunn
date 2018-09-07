@@ -38,14 +38,15 @@
         
             <div class="contact-container">
                 <h1 id="contact">Contact</h1>
-                    <form id="label"> 
+                    <form action="https://formspree.io/quinton.fults.work@gmail.com" method="POST" id="label"> 
                         <label id = "name-label" for="name">Name</label>
-                        <input id = "name" type="text" name="Name">
-                        <label id = "email-label" for="email">Email</label>
-                        <input id ="email" type="email" name="Email"><br>
-                        <label id = "message-label" for="message">Message</label>                        <textarea id = "message" rows="8"></textarea><br>
+                        <input id = "name" type="text" name="name">
+                        <label id = "email-label" for="_replyto">Email</label>
+                        <input id ="email" type="email" name="_replyto"><br>
+                        <label id = "message-label" for="message">Message</label>                        
+                        <textarea id = "message" rows="8" name="message"></textarea><br>
                     </form>
-                    <button id = "submit">Submit</button>
+                    <button id = "submit" type="submit" value="Send">Submit</button>
             </div>
         </div>
         
