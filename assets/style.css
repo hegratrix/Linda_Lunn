@@ -17,7 +17,7 @@
 }
 
 .all-content-container-acc {
-    width: 65%;
+    width: 75%;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -120,9 +120,9 @@ a.hlink:hover {
 #linda-pic {
     position: absolute;
     z-index: 1;
-    width: 27%;
-    left: 10%;
-    top: 197px;
+    width: 21%;
+    left: 13%;
+    top: 178px;
 }
 
 #blue-background {
