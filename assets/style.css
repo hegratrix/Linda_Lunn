@@ -109,7 +109,8 @@ a.hlink:hover {
 }
 
 #above-right {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Bad Script', cursive;
+    font-style: italic;
     color: white;
     padding-top: 13px;
     width: 40%;
@@ -234,7 +235,7 @@ a.link3:hover {
 }
 
 #meet {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Bad Script', cursive;
     color: white;
     text-align: center;
     font-size: 40px;
