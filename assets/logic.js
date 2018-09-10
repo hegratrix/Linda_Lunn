@@ -20,6 +20,7 @@ $(document).ready( function () {
         const message = $('#message').val()
         const phone = ''
         let status = true
+        let time = moment().format("MMM/DD/YYYY H:mm")
 
         if (email.includes('@') && email.includes('.')) {
         } else {
@@ -38,7 +39,7 @@ $(document).ready( function () {
             status = false
         }
         if (status === true) {
-            addUser('comment', name, email, phone, message)
+            addUser('comment', time, name, email, phone, message)
             $('.contact-container').html('Thank you for your message!')
             $('.contact-container').css({'color':'white', 'text-align':'center', 'font-size': '50px', 'height':'300px', 'padding-top': '100px'})
         }
@@ -48,12 +49,14 @@ $(document).ready( function () {
 // yard sign
 $(document).ready( function () {
     $('#submit2').click( function (event) {
+        console.log('yardsign')
         event.preventDefault()
         const name = $('#name').val()
         const email = $('#email').val()
         const phone = $('#phone').val()
         const message = ''
         let status = true
+        let time = moment().format("MMM/DD/YYYY H:mm")
 
         if (email.includes('@') && email.includes('.')) {
         } else {
@@ -72,7 +75,7 @@ $(document).ready( function () {
             status = false
         }
         if (status === true) {
-            addUser('yard sign', name, email, phone, message)
+            addUser('yard sign', time, name, email, phone, message)
             $('.contact-container').html('Thanks for your interest in a yard sign.  I will contact you soon.')
             $('.contact-container').css({'color':'white', 'text-align':'center', 'font-size': '40px', 'height':'300px', 'padding-top': '100px'})
         }
@@ -88,6 +91,7 @@ $(document).ready( function () {
         const phone = $('#phone').val()
         const message = $('#message').val()
         let status = true
+        let time = moment().format("MMM/DD/YYYY H:mm")
 
         if (email.includes('@') && email.includes('.')) {
         } else {
@@ -102,7 +106,7 @@ $(document).ready( function () {
         }
 
         if (status === true) {
-            addUser('Endorsement', name, email, phone, message)
+            addUser('Endorsement', time, name, email, phone, message)
             $('.contact-container').html('Thanks for your endorsement!  I will contact you soon.')
             $('.contact-container').css({'color':'white', 'text-align':'center', 'font-size': '40px', 'height':'300px', 'padding-top': '100px'})
         }
@@ -117,6 +121,7 @@ $(document).ready( function () {
         const phone = $('#phone').val()
         const message = ''
         let status = true
+        let time = moment().format("MMM/DD/YYYY H:mm")
 
         if (email.includes('@') && email.includes('.')) {
         } else {
@@ -131,16 +136,17 @@ $(document).ready( function () {
         }
 
         if (status === true) {
-            addUser('Donate', name, email, phone, message)
+            addUser('Donate', time, name, email, phone, message)
             $('.contact-container').html('Thank you!')
             $('.contact-container').css({'color':'white', 'text-align':'center', 'font-size': '40px', 'height':'300px', 'padding-top': '100px'})
         }
     })
 })
 
-function addUser (type, name, email, phone, message) {
+function addUser (type, time, name, email, phone, message) {
     userRef.push({
         type,
+        time,
         name,
         email,
         phone,
