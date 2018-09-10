@@ -387,7 +387,9 @@ textarea {
     height: 35px;
     background-color: #203064;
     font-size: 16px;
-    float: right;
+    position: absolute;
+    right: 10px;
+    top: -30px;
 }
 
 .dropdown-item {
