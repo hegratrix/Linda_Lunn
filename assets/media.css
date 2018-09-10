@@ -1,49 +1,182 @@
 @media only screen and (max-width: 980px) {
 
-.flag-container {
-    height: 380px;
-}
+    .all-content-container-acc {
+        width: 85%;
+    }
 
-#flag {
-    height: 380px;
-    width: 100%
-}
+    .flag-container {
+        overflow: auto;
+    }
 
-.all-content-container1 {
-    width: 75%;
-}
+    #flag {
+        height: auto;
+        width: 100%
+    }
 
-#above-left {
-    width: 38%;
-}
+    #statement-header {
+        font-size: 23px;
+    }
+    .all-content-container1 {
+        width: 75%;
+    }
 
-#above-right {
-    width: 62%;
-    padding-top: 50px;
-}
+    #above-left {
+        width: 65%;
+    }
 
-#blue-background1, #red-background1, #candidate-statement {
-    width: 100%
-}
-}
+    #above-right {
+        width: 45%;
+        padding-top: 50px;
+    }
 
+    #blue-background1, #red-background1, #candidate-statement {
+        width: 100%;
+    }
+    
+    #blue-background1 {
+        border: 1px solid white;
+        border-bottom: none;
+    }
+}
 @media only screen and (max-width: 768px) {
 
-.all-content-container {
-    width: 95%;
+    .all-content-container {
+        width: 95%;
+    }
+
+    .all-content-container1 {
+        width: 95%;
+    }
+
+    #family-pic {
+        float: none;
+        width: 100%;
+    }
+
+    .abt-pic {
+        width: 40%;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+
+    .btn {
+        margin-top: -45px;
+    }
+    #above-header {
+        display: block;
+    }
+
+    .dropdown {
+        display: initial;
+        float: right;
+    }
+
+    .donate-message {
+        font-size: 20px;
+    }
+
+    .all-content-container-acc {
+        width: 95%;
+    }
+
+    #above-left {
+        width: 100%;
+        display: block;
+    }
+
+    #above-right{
+        padding-top: 5px;
+        width: 100%;
+    }
+
+    #linda-header {
+        font-size: 29px;
+    }
+
+    #school-board-header {
+        font-size: 18px;
+    }
+
+    #statement-header {
+        text-align: center;
+        padding-top: 5px;
+        font-size: 20px;
+    }
+    
+    .header {
+        display: none;
+    }
+
+    .link2 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    a.hlink:hover {
+        font-size: 29px;
+    }
+
+    .link3 {
+        font-size: 19px;
+    }
+
+    #facebook, #vote {
+        height: 30px;
+    }
+
+    #red-background1 {
+        height: 45px;
+    }
+
+    #meet2 {
+        font-size: 16px;
+    }
+
+    .meet3 {
+        font-size: 14px;
+    }
+
+    label, #contact, input, textarea {
+        margin-left: 15px;
+    }
 }
 
-.all-content-container1 {
-    width: 95%;
+@media only screen and (max-width: 400px) {
+    .link3 {
+        font-size: 14px;
+    }
+
+    .all-content-container1 {
+        width: 100%;
+    }
+
+    .all-content-container {
+        width: 100%;
+    }
+    
+    #above-header {
+        display: block;
+    }
+
+    #above-right {
+        width: 100%;
+    }
+
+    #above-left {
+        width: 100%;
+    }
+
+    #above-right {
+        text-align: center;
+        padding: 0;
+    }
+
+    .link2 {
+        font-size: 15px;
+    }
+
+    a.hlink:hover {
+        font-size: 20px;
+    }
 }
-
-
-}
-
-@media only screen and (max-width: 640px) {
-
-}
-
-
-
-/* #img-back */

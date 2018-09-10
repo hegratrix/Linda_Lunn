@@ -17,10 +17,11 @@
 }
 
 .all-content-container-acc {
-    width: 75%;
+    width: 70%;
     display: block;
     margin-right: auto;
     margin-left: auto;
+    overflow: auto;
 }
 
 body {
@@ -43,15 +44,14 @@ body {
 
 #flag {
     width: 60%;
-    height: 474px;
+    height: auto;
     opacity: .8;
     border-left: 1.5px solid #203064;
 }
 
 .flag-container {
         background: white;
-        width: 100%;
-        height: 474px;
+        width: 100%
 }
 
 .header {
@@ -90,11 +90,27 @@ a.hlink:hover {
 
 #linda-header {
     color: white;
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 #school-board-header {
     color: white;
-    margin-top: -17px;
+    margin-top: -5px;
+    display: block;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+#top-half {
+    margin-top: 30px;
+}
+
+#statement-header {
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 #above-header {
@@ -112,17 +128,9 @@ a.hlink:hover {
     font-family: 'Bad Script', cursive;
     font-style: italic;
     color: white;
-    padding-top: 13px;
+    padding-top: 43px;
     width: 40%;
     text-align: right;
-}
-
-#linda-pic {
-    position: absolute;
-    z-index: 1;
-    width: 21%;
-    left: 13%;
-    top: 178px;
 }
 
 #blue-background {
@@ -209,7 +217,6 @@ a.link3:hover {
     vertical-align: middle;
 }
 
-
 #family-pic {
     width: 60%;
     float: left;
@@ -218,16 +225,16 @@ a.link3:hover {
 
 .family-container {
     width: 100%;
-    height: 610px;
     margin-right: auto;
     margin-left: auto;
     background-color: #203064;
     padding: 15px;
+    overflow: auto;
 }
 
 #carousel-container {
     width: 100%;
-    height: 515px;
+    overflow: auto;
     margin-right: auto;
     margin-left: auto;
     background-color: #203064;
@@ -268,7 +275,7 @@ a.link3:hover {
 #statement {
     color: white;
     font-family: 'Playfair Display', serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.3;
     margin: 20px;
     padding-bottom: 10px;
@@ -276,7 +283,6 @@ a.link3:hover {
 
 .contact-container {
     width: 100%;
-    height: 545px;
     margin-right: auto;
     margin-left: auto;
     background-color: #203064;
@@ -324,6 +330,7 @@ button {
     color: white;
     background-color: #96042d;
     margin-top: 10px;
+    margin-bottom: 15px;
     width: 85px;
     height: 35px;
     font-family:'Playfair Display', serif;
@@ -360,10 +367,6 @@ textarea {
     width: 30%;
 }
 
-.w-100 {
-    max-height: 500px;
-}
-
 .pic-header {
     font-weight: bold;
     font-size: 30px;
@@ -377,4 +380,28 @@ textarea {
     margin-right: auto;
     margin-left: auto;
     width: 80%;
+}
+
+.btn {
+    width: 90px;
+    height: 35px;
+    background-color: #203064;
+    font-size: 16px;
+    float: right;
+}
+
+.dropdown-item {
+    font-family:'Playfair Display', serif;
+    font-style: normal;
+    color: #203064;
+}
+
+.dropdown-item:hover {
+    color: #960d1d;
+    font-weight: bold;
+    background-color: #f8f9fa;
+}
+
+.dropdown {
+    display: none;
 }
