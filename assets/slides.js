@@ -6,7 +6,7 @@ let slides = [
 
     {"image": "./assets/images/curran.jpg",
         "heading": "E Hale Curran",
-        "p": "Firday Flag and Coffee with the Principal"
+        "p": "Firday Flag and Coffee with the Principal to discuss CAASP testing"
     },
 
     {"image": "./assets/images/bookfair2.jpg",
@@ -34,7 +34,7 @@ let slides = [
 
     {"image": "./assets/images/vmhs3.JPEG",
         "heading": "Vista Murrieta HS",
-        "p": ""
+        "p": "Catching up with local students"
     },
 
     {"image": "./assets/images/tovashal.jpg",
@@ -53,9 +53,19 @@ let slides = [
         "p": "Coach Rob Stout supervises the recycling fundraiser where the color guard and drumline sorted $800 worth of plastic and cans.  Recycle, reuse, renew!"
     },
 
+    {"image": "./assets/images/ROTC.jpg",
+    "heading": "Vista Murrieta HS AFJROTC",
+    "p": "September 11th Memorial Ceremony"
+    },
+
+    {"image": "./assets/images/culinary.jpg",
+    "heading": "VMHS Career and Technical Education Building",
+    "p": "With the Culinary Arts Program who catered the grand opening."
+    },
+
     {"image": "./assets/images/vmhs4.JPEG",
         "heading": "Vista Murrieta HS",
-        "p": ""
+        "p": "Hearing from our students."
     },
 
     {"image": "./assets/images/district.jpg",

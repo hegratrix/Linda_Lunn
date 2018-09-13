@@ -74,7 +74,7 @@ body {
 }
 
 .hlink {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Rubik', sans-serif;
     text-align: center;
     font-size: 20px;
     color: #203064;
@@ -109,8 +109,7 @@ a.hlink:hover {
 
 #statement-header {
     display: block;
-    font-size: 32px;
-    font-weight: bold;
+    font-size: 45px;
 }
 
 #above-header {
@@ -125,12 +124,13 @@ a.hlink:hover {
 }
 
 #above-right {
-    font-family: 'Bad Script', cursive;
+    font-family: 'Great Vibes', cursive;
     font-style: italic;
     color: white;
     padding-top: 43px;
     width: 40%;
     text-align: right;
+    font-size: 50px;
 }
 
 #blue-background {
@@ -175,7 +175,7 @@ a.hlink:hover {
 .link2 {
     text-align: center;
     color: white;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Rubik', sans-serif;
     text-decoration: none;
     font-size: 25px;
     padding-top: 22px;
@@ -242,7 +242,7 @@ a.link3:hover {
 }
 
 #meet {
-    font-family: 'Bad Script', cursive;
+    font-family: 'Great Vibes', cursive;
     color: white;
     text-align: center;
     font-size: 40px;
@@ -250,18 +250,30 @@ a.link3:hover {
 
 #meet2 {
     color: white;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 22px;
-    line-height: 1.3;
+    line-height: 1.35;
 }
 
-.meet3, li {
+.meet3 {
     color: white;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 20px;
     line-height: 1.3;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+li {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    line-height: 1.3;
+    margin-left: 32px;
+    margin-right: 15px;
+    padding-left: 15px;
+    list-style-position: inside;
+    text-indent: -1.5em;
 }
 
 #candidate-statement {
@@ -274,7 +286,7 @@ a.link3:hover {
 
 #statement {
     color: white;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     line-height: 1.3;
     margin: 20px;
@@ -291,7 +303,7 @@ a.link3:hover {
 #contact {
     width: 90%;
     color: white;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 25px;
     margin-left: 40px;
     padding-bottom: 20px;
@@ -302,7 +314,7 @@ a.link3:hover {
 }
 
 label {
-    font-family:'Playfair Display', serif;
+    font-family: 'Rubik', sans-serif;
     color: white;
     font-size: 20px;
     margin-left: 40px;
@@ -321,7 +333,7 @@ input {
     border-style: solid;
     border-color: #96042d;
     border-width: 1px;
-    font-family:'Playfair Display', serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 button {
@@ -333,11 +345,11 @@ button {
     margin-bottom: 15px;
     width: 85px;
     height: 35px;
-    font-family:'Playfair Display', serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 textarea {
-    font-family:'Playfair Display', serif;
+    font-family: 'Rubik', sans-serif;
     margin-left: 40px;
     width: 90%;
     font-size: 20px;
@@ -371,12 +383,21 @@ textarea {
     width: 30%;
 }
 
+#learner-pic {
+    float: left;
+    margin: 15px;
+    width: 30%;
+    margin-right: 45px;
+}
+
 .pic-header {
     font-weight: bold;
     font-size: 30px;
+    font-family: 'Rubik', sans-serif;
 }
 
 .pic-p {
+    font-family: 'Rubik', sans-serif;
     font-size: 21px;
 }
 
@@ -397,7 +418,7 @@ textarea {
 }
 
 .dropdown-item {
-    font-family:'Playfair Display', serif;
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     color: #203064;
 }
@@ -423,4 +444,134 @@ span {
     font-style: oblique;
     font-size: 25px;
     text-align: center;
+}
+
+.abt-pic {
+    float: left;
+}
+
+::placeholder {
+    color: rgb(201, 187, 187);
+}
+
+.donate-message, .donate-need {
+    width: 90%;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    margin-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-right: 35px;
+    margin-top: 0;
+}
+
+.map-container {
+    width: 100%;
+    background-color: #203064;
+    padding: 30px;
+    overflow: auto;
+}
+
+.district-map-title {
+    color: #203064;
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.area-map-title {
+    color: #203064;
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 27px;
+}
+
+#dist-map-container {
+    padding-top: 10px;
+    position: relative;
+    float: right;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+}
+
+#area-map-container {
+    position: relative;
+    float: left;
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+}
+
+#area-map {
+    border: 3px solid #960d1d;
+    float: left;
+}
+
+#district-map {
+    border: 3px solid #960d1d;
+    width: 95%;
+}
+
+#map-words {
+    background-color: rgb(245, 238, 238);
+    border: 3px solid #960d1d;
+    width: 60%;
+    font-family: 'Rubik', sans-serif;
+    color: #203064;
+    padding: 5px;
+}
+
+h1.map-info {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+h2.map-info {
+    text-align: center;
+}
+
+h3.map-info {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+li.map-info {
+    color: #960d1d;
+}
+
+#area-map-title {
+    position: relative;
+}
+
+h1.donate-info {
+    font-size: 27px;
+    text-align: center;
+}
+
+p.donate-info {
+    line-height: .7;
+}
+
+.und {
+    text-decoration: underline;
+}
+
+#requirements {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3.donate-info  {
+    text-align: center;
+    font-size: 18px;
 }

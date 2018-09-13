@@ -57,8 +57,39 @@
         width: 40%;
     }
 
+    #learner-pic {
+        margin-right: 15px;
+    }
+    .carousel-inner {
+        width: 100%;
+    }
 }
+
 @media only screen and (max-width: 500px) {
+
+    h1.map-info, h2.map-info {
+        font-size: 18px;
+    }
+
+    .district-map-title, .area-map-title {
+        font-size: 18px;
+    }
+
+    #area-map {
+        float: none;
+    }
+
+    #area-map-container {
+        display: block;
+    }
+
+    #map-words {
+        width: 100%;
+    }
+
+    #map-info {
+        width: 100%;
+    }
 
     .btn {
         margin-top: -65px;
@@ -135,7 +166,7 @@
         font-size: 16px;
     }
 
-    .meet3 {
+    .meet3, li {
         font-size: 14px;
     }
 
