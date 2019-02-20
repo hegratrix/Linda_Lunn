@@ -45,7 +45,6 @@ body {
 #flag {
     width: 60%;
     height: auto;
-    opacity: .8;
     border-left: 1.5px solid #203064;
 }
 
@@ -451,7 +450,7 @@ span {
 }
 
 ::placeholder {
-    color: rgb(201, 187, 187);
+    color: rgb(168, 151, 151);
 }
 
 .donate-message, .donate-need {
@@ -574,4 +573,35 @@ p.donate-info {
 h3.donate-info  {
     text-align: center;
     font-size: 18px;
+}
+
+#disclaimer {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+  }
+
+  .endorse-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #203064;
+    padding: 15px;
+    overflow: auto;
+    color: white;
+    font-size: 18px;
+    padding-left: 40px;
+  }
+
+  th {
+      text-align: center;
+  }
+
+#thanks {
+    color:white;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    padding: 0;
+    font-size: 35px;
 }

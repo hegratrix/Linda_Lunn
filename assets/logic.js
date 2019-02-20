@@ -18,6 +18,7 @@ $(document).ready( function () {
         const name = $('#name').val()
         const email = $('#email').val()
         const message = $('#message').val()
+        const title = ''
         const phone = ''
         let status = true
         let time = moment().format("MMM/DD/YYYY H:mm")
@@ -39,7 +40,7 @@ $(document).ready( function () {
             status = false
         }
         if (status === true) {
-            addUser('comment', time, name, email, phone, message)
+            addUser('comment', time, name, title, email, phone, message)
             $('.contact-container').html('Thank you for your message!')
             $('.contact-container').css({'color':'white', 'text-align':'center', 'font-size': '50px', 'height':'300px', 'padding-top': '100px'})
         }
@@ -54,6 +55,7 @@ $(document).ready( function () {
         const name = $('#name').val()
         const email = $('#email').val()
         const phone = $('#phone').val()
+        const title = ''
         const message = ''
         let status = true
         let time = moment().format("MMM/DD/YYYY H:mm")
@@ -90,6 +92,7 @@ $(document).ready( function () {
         const email = $('#email').val()
         const phone = $('#phone').val()
         const message = $('#message').val()
+        const title = $('#title').val()
         let status = true
         let time = moment().format("MMM/DD/YYYY H:mm")
 
@@ -106,48 +109,58 @@ $(document).ready( function () {
         }
 
         if (status === true) {
-            addUser('Endorsement', time, name, email, phone, message)
+            addUser('Endorsement', time, name, title, email, phone, message)
             $('.contact-container').html('Thanks for your endorsement!  I will contact you soon.')
             $('.contact-container').css({'color':'white', 'text-align':'center', 'font-size': '40px', 'height':'300px', 'padding-top': '100px'})
         }
     })
 })
 
-$(document).ready( function () {
-    $('#submit4').click( function (event) {
-        event.preventDefault()
-        const name = $('#name').val()
-        const email = $('#email').val()
-        const phone = $('#phone').val()
-        const message = ''
-        let status = true
-        let time = moment().format("MMM/DD/YYYY H:mm")
+// $(document).ready( function () {
+//     $('#submit4').click( function (event) {
+//         event.preventDefault()
+//         const name = $('#name').val()
+//         const email = $('#email').val()
+//         const phone = $('#phone').val()
+//         const message = ''
+//         let status = true
+//         let time = moment().format("MMM/DD/YYYY H:mm")
 
-        if (email.includes('@') && email.includes('.')) {
-        } else {
-            $('#email-label2').css({'color': "red", "font-weight": "bold"})
-            $('#email-label2').text('Please enter your email.')
-            status = false
-        }
-        if (name.length < 2) {
-            $('#name-label2').css({'color': "red", "font-weight": "bold"})
-            $('#name-label2').text('Please enter your name.')
-            status = false
-        }
+//         if (email.includes('@') && email.includes('.')) {
+//         } else {
+//             $('#email-label2').css({'color': "red", "font-weight": "bold"})
+//             $('#email-label2').text('Please enter your email.')
+//             status = false
+//         }
+//         if (name.length < 2) {
+//             $('#name-label2').css({'color': "red", "font-weight": "bold"})
+//             $('#name-label2').text('Please enter your name.')
+//             status = false
+//         }
 
-        if (status === true) {
-            addUser('Donate', time, name, email, phone, message)
-            $('.contact-container').html('Thank you!')
-            $('.contact-container').css({'color':'white', 'text-align':'center', 'font-size': '40px', 'height':'300px', 'padding-top': '100px'})
-        }
-    })
-})
+//         if (status === true) {
+//             addUser('Donate', time, name, title, email, phone, message)
+//             $('.contact-container').html('Thank you!')
+//             $('.contact-container').css({'color':'white', 'text-align':'center', 'font-size': '40px', 'height':'300px', 'padding-top': '100px'})
+//         }
+//     })
+// })           status = false
+//         }
 
-function addUser (type, time, name, email, phone, message) {
+//         if (status === true) {
+//             addUser('Donate', time, name, title, email, phone, message)
+//             $('.contact-container').html('Thank you!')
+//             $('.contact-container').css({'color':'white', 'text-align':'center', 'font-size': '40px', 'height':'300px', 'padding-top': '100px'})
+//         }
+//     })
+// })
+
+function addUser (type, time, name, title, email, phone, message) {
     userRef.push({
         type,
         time,
         name,
+        title,
         email,
         phone,
         message
